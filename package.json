@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Discord bot",
   "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -26,9 +31,5 @@
   },
   "devDependencies": {
     "eslint": "^8.19.0"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
   }
 }
